@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features ="src/test/resources/features",
         glue = "com/library2/step_definitions",
-        tags =  "@AC4_student",
+        tags =  "@AC4_student  ",
         dryRun = false
 
 )
